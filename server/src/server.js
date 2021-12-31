@@ -19,7 +19,9 @@ async function startServer() {
         })
         server.listen(PORT, ()=>{
             console.log('listening on port')
+
         })
+
 
 
     }catch(error){

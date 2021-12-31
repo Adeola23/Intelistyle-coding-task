@@ -22,6 +22,6 @@ const garmentSchema = new mongoose.Schema({
     },
 
 });
-
+garmentSchema.index({ product_title: 'text' });
 const productSchema = mongoose.model('Garment', garmentSchema )
 module.exports = productSchema
