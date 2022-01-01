@@ -3,7 +3,7 @@
     text-align: center;
     position:relative;
     background-repeat: no-repeat;
-    flex-direction: row;
+    flex-direction: column;
     background-color: #95dada;
     border: 1px solid grey;
     border-radius: 5px;
@@ -31,7 +31,7 @@ img{
 .img-h1 {
     text-align: right;
     position: absolute;
-    font-size:21px;
+    font-size:15px;
     margin-left: 5px;
 
 }
@@ -40,4 +40,5 @@ img{
     position: absolute;
     margin-top: 90px;
     margin-left: 5px;
+    font-size: 15px;
 }
