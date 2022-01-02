@@ -19,7 +19,7 @@ async function startServer() {
             useNewUrlParser: true, // This determines how mongoose parses the connection string
             useUnifiedTopology: true// mongoose will use the updated way of talking to clusters of data bases
         })
-        server.listen(PORT, ()=>{
+        server.listen(process.env.PORT || 8000 , ()=>{
             console.log('listening on port')
         })
     }catch(error){

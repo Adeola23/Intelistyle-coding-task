@@ -7,7 +7,7 @@ const garmentRouter = require('./routes/garments/garments.router.js')
 const app = express();
 app.use(bodyParser.urlencoded({ extended: false}))
 app.use(cors({
-    origin: 'http://localhost:3000'
+    origin: 'https://intelistyle-coding-challenge.netlify.app'
 
 }));
 app.use(bodyParser.json()) // since we be using json data to our react client
