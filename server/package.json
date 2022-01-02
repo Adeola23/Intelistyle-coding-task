@@ -7,7 +7,6 @@
     "node": "14.x",
     "npm": "6.14.15"
   },
-
   "scripts": {
     "test": "jest --watchAll",
     "watch": "nodemon src/server.js",

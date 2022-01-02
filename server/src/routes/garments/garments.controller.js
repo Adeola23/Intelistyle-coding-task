@@ -44,6 +44,7 @@ async function getSearched(req, res){
                 console.log(error)
             } else {
                 return res.status(200).json(product)
+
             }
         })
 

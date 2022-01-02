@@ -10,6 +10,11 @@ app.use(cors({
     origin: 'https://intelistyle-coding-challenge.netlify.app'
 
 }));
+//added for test
+app.get('/find/shoe', (req, res)=>{
+    //res.sendStatus(200)
+    res.send({})
+})
 app.use(bodyParser.json()) // since we be using json data to our react client
 // app.use(function(req,res,next){
 //     res.header('Access-Control-Allow-Origin', '*');
